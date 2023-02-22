@@ -1,0 +1,46 @@
+.presentation {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 7px;
+
+  color: #ccc;
+  width: 100%;
+  max-width: 500px;
+}
+
+.presentation h2 {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.presentation .boxName {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+.presentation .cursor {
+  display: inline-block;
+  width: 2px;
+  height: 34px;
+  background: #ccc;
+}
+
+.presentation h2:nth-child(3) {
+  border-bottom: solid 1px #ccc;
+  padding: 0 15px;
+}
+
+.presentation .contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+
+  width: 100%;
+}

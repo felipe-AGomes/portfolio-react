@@ -1,0 +1,44 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #ccc;
+  padding: 40px;
+  font-weight: bold;
+  z-index: 100;
+  transition: .5s;
+}
+
+header.active {
+  background: #fff;
+  color: #111;
+  padding: 20px;
+  transition: all .5s;
+  box-shadow: 2px 0 7px 1px rgba(0, 0, 0, 0.2);
+}
+
+header > a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 1.1rem;
+  gap: 1rem;
+}
+
+header ul a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}

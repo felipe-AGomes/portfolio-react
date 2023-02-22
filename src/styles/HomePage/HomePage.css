@@ -1,0 +1,22 @@
+#homePage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  position: relative;
+  min-height: 100vh;
+  background: #111;
+  overflow: hidden;
+}
+
+#homePage img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  opacity: 0.1;
+  transform: translate(-50%, -52%);
+}

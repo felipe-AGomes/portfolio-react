@@ -1,0 +1,35 @@
+#aboutPage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 80px 20px;
+  min-height: 100vh;
+}
+
+#aboutPage .about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#aboutPage .about-content .description {
+  width: 40%;
+  height: 400px;
+  padding: 30px;
+  box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.2);
+}
+
+#aboutPage .about-content .img-content {
+  width: 40%;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+#aboutPage .about-content .img-content img {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
