@@ -1,0 +1,85 @@
+.skill-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	
+	aspect-ratio: 1/1;
+	position: relative;
+	background: var(--card);
+	border-radius: 10px;
+	width: 100%;
+	max-width: 200px;
+	overflow: hidden;
+}
+
+.skill-card span {
+	position: absolute;
+}
+
+.skill-card:hover span:nth-child(1) {
+	position: absolute;
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 3px;
+	background: linear-gradient(to right, transparent, #2c40f5);
+	animation: hover1 2s infinite linear;
+}
+
+.skill-card:hover span:nth-child(2) {
+	position: absolute;
+	top: -100%;
+	right: 0;
+	width: 3px;
+	height: 100%;
+	background: linear-gradient(to bottom, transparent, #2c40f5);
+	animation: hover2 2s 1s infinite linear;
+}
+
+.skill-card:hover span:nth-child(3) {
+	position: absolute;
+	bottom: 0;
+	right: -100%;
+	width: 100%;
+	height: 3px;
+	background: linear-gradient(to left, transparent, #2c40f5);
+	animation: hover3 2s infinite linear;
+}
+
+.skill-card:hover span:nth-child(4) {
+	position: absolute;
+	bottom: -100%;
+	left: 0;
+	width: 3px;
+	height: 100%;
+	background: linear-gradient(to top, transparent, #2c40f5);
+	animation: hover4 2s 1s infinite linear;
+}
+
+@keyframes hover1 {
+	100% {
+		left: 100%;
+	}
+	
+}
+@keyframes hover2 {
+	100% {
+		top: 100%;
+	}
+	
+}
+@keyframes hover3 {
+	100% {
+		right: 100%;
+	}
+	
+}
+@keyframes hover4 {
+	100% {
+		bottom: 100%;
+	}
+	
+}
+

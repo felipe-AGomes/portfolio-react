@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import '../../styles/HomePage/Header.css';
 
 function Header() {
-	const [scroll, setScroll] = useState(false);
+	const [scroll, setScroll] = useState<boolean>(false);
 	window.addEventListener('scroll', handleScroll);
 
 	function handleScroll() {
@@ -30,13 +30,13 @@ function Header() {
 			</a>
 
 			<ul>
-				<a href='#'>
-					<li>Início</li>
+				<a href='#homePage'>
+					<li>Incio</li>
 				</a>
-				<a href='#'>
+				<a href='#aboutPage'>
 					<li>Sobre</li>
 				</a>
-				<a href='#'>
+				<a href='#skillPage'>
 					<li>Habilidades</li>
 				</a>
 				<a href='#'>

@@ -4,7 +4,7 @@
   flex-direction: column;
   gap: 7px;
 
-  color: #ccc;
+  color: var(--font-primary);
   width: 100%;
   max-width: 500px;
 }
@@ -28,11 +28,11 @@
   display: inline-block;
   width: 2px;
   height: 34px;
-  background: #ccc;
+  background: var(--font-primary);
 }
 
 .presentation h2:nth-child(3) {
-  border-bottom: solid 1px #ccc;
+  border-bottom: var(--font-primary);
   padding: 0 15px;
 }
 

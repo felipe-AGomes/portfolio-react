@@ -3,8 +3,8 @@ import '../../styles/AboutPage/AboutPage.css';
 
 function AboutPage() {
 	return (
-		<section id='aboutPage'>
-			<div className='header'>SOBRE MIM</div>
+		<section id='aboutPage' className='page'>
+			<div className='header'><h2>SOBRE MIM</h2></div>
 			<div className='about-content'>
 				<div className='description'>
 					<p>Olá</p>

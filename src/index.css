@@ -5,4 +5,29 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary: #111;
+  --secondary: #fff;
+  --card: #444;
+  --font-primary: #ccc;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.page {
+  display: grid;
+  grid-template-rows: 50px 1fr;
+  align-items: center;
+  
+  padding: 80px 20px 20px;
+  min-height: 100vh;
 }

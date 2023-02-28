@@ -7,7 +7,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  color: #ccc;
+  color: var(--font-primary);
   padding: 40px;
   font-weight: bold;
   z-index: 100;
@@ -15,8 +15,8 @@ header {
 }
 
 header.active {
-  background: #fff;
-  color: #111;
+  background: var(--secondary);
+  color: var(--primary);
   padding: 20px;
   transition: all .5s;
   box-shadow: 2px 0 7px 1px rgba(0, 0, 0, 0.2);
