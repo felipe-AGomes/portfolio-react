@@ -9,7 +9,6 @@ function HomePage() {
 			<Header />
 			<Presentation />
 			<img src='../../../public/IMG_20221211_154038.jpg' alt='Person Image' />
-
 		</section>
 	);
 }

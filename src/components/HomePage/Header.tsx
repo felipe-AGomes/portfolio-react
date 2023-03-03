@@ -5,7 +5,7 @@ function Header() {
 	const [scroll, setScroll] = useState<boolean>(false);
 	window.addEventListener('scroll', handleScroll);
 
-	function handleScroll() {
+	function handleScroll(): void {
 		const {scrollY} = window;
 		if (scroll && scrollY > 0) {
 			return;
@@ -25,7 +25,7 @@ function Header() {
 		<header
 			className={scroll ? 'active' : ''}
 		>
-			<a href='#'>
+			<a href='https://www.linkedin.com/in/felipe-de-almeida-gomes/' target='_blank' rel='noreferrer'>
 				<h1>Felipe</h1>
 			</a>
 
@@ -39,7 +39,7 @@ function Header() {
 				<a href='#skillPage'>
 					<li>Habilidades</li>
 				</a>
-				<a href='#'>
+				<a href='#projectPage'>
 					<li>Projetos</li>
 				</a>
 			</ul>

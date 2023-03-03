@@ -1,0 +1,14 @@
+#projectPage {
+	position: relative;
+	background-color: var(--primary);
+	color: var(--font-primary)
+}
+
+#projectPage .project-content {
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	grid-template-columns: repeat(auto-fit, 330px);
+	gap: 20px;
+}
+

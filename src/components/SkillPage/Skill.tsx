@@ -7,17 +7,15 @@ type Prop = {
 };
 
 function Skill({skill, img}: Prop) {
-	console.log(img);
-
 	return (
-		<h1 className='skill-card'>
+		<div className='skill-card'>
 			<span></span>
 			<span></span>
 			<span></span>
 			<span></span>
 			<h3>{skill}</h3>
 			{img}
-		</h1>
+		</div>
 	);
 }
 

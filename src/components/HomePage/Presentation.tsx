@@ -7,7 +7,6 @@ function Presentation() {
 			<h2>Olá, me chamo</h2>
 			<div className='boxName'>
 				<h1 className='name'>FELIPE DE ALMEIDA GOMES</h1>
-				<div className='cursor'></div>
 			</div>
 			<h2>Desenvolvedor Web</h2>
 			<div className='contacts'>
