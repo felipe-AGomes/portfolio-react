@@ -8,7 +8,7 @@ function HomePage() {
 		<section id='homePage'	>
 			<Header />
 			<Presentation />
-			<img src='../../../public/IMG_20221211_154038.jpg' alt='Person Image' />
+			<img src='../../../public/profile2.jpg' alt='Person Image' />
 		</section>
 	);
 }
