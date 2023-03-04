@@ -2,7 +2,7 @@ import React from 'react';
 import Skill from './Skill';
 import '../svg/index';
 import '../../styles/SkillPage/SkillPage.css';
-import {css, express, figma, html, javaScript, python, react, typeScript} from '../svg/index';
+import {css, express, figma, html, javaScript, node, python, react, typeScript} from '../svg/index';
 
 export type SkillKeys = {
 	name: string;
@@ -42,6 +42,10 @@ function SkillPage() {
 		{
 			name: 'PYTHON',
 			img: python,
+		},
+		{
+			name: 'NODE',
+			img: node,
 		},
 	];
 
