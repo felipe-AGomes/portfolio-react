@@ -14,7 +14,7 @@
 	width: 100%;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 480px) {
 	#skillPage .skill-content {
 		display: grid;
 		grid-template-columns: 100%;
