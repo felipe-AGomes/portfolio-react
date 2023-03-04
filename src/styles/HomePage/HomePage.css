@@ -9,7 +9,7 @@
   overflow: hidden;
 }
 
-#homePage img {
+#homePage > img {
   position: absolute;
   left: 50%;
   top: 50%;

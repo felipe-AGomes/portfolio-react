@@ -31,3 +31,14 @@
   padding: 80px 20px 20px;
   min-height: 100vh;
 }
+
+@media (max-width: 380px) {
+  .header {
+    font-size: 1rem;
+  }
+
+.page {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+}

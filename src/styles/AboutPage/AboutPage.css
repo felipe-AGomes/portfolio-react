@@ -6,10 +6,8 @@
 
 #aboutPage .about-content .description {
   width: 40%;
-  height: 400px;
   padding: 50px;
   box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.2);
-  letter-spacing: 1px;
   font-size: 1.1rem;
   font-weight: 500;
 }
@@ -31,4 +29,26 @@
   width: 100%;
   background-position: center;
   background-size: cover;
+}
+
+@media (max-width: 765px) {
+  #aboutPage .about-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #aboutPage .about-content .description {
+    width: 100%;
+  }
+
+  #aboutPage .about-content .img-content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 380px) {
+  #aboutPage .about-content .description {
+    font-size: 0.8rem;
+    letter-spacing: 0px;
+  }
 }

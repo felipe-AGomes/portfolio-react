@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import '../../styles/ProjectPage/Button.css';
 
 type Prop = {
 	data: Record<string, string>;

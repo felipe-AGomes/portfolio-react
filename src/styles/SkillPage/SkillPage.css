@@ -13,3 +13,16 @@
 
 	width: 100%;
 }
+
+@media (max-width: 460px) {
+	#skillPage .skill-content {
+		display: grid;
+		grid-template-columns: 100%;
+		grid-auto-rows: auto;
+		align-items: center;
+		justify-content: center;
+		gap: 20px;
+	
+		width: 100%;
+	}
+}

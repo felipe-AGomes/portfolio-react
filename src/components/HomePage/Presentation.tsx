@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../styles/HomePage/Presentation.css';
+import {github, instagram, linkedin, whatSapp} from '../svg';
 
 function Presentation() {
 	return (
@@ -10,10 +11,10 @@ function Presentation() {
 			</div>
 			<h2>Desenvolvedor Web</h2>
 			<div className='contacts'>
-				<a href='#'>I</a>
-				<a href='#'>L</a>
-				<a href='#'>G</a>
-				<a href='#'>w</a>
+				<a href='https://www.instagram.com/f.almeida13/' className='icon'>{instagram}</a>
+				<a href='https://www.linkedin.com/in/felipe-de-almeida-gomes/' className='icon'>{linkedin}</a>
+				<a href='https://github.com/felipe-AGomes' className='icon'>{github}</a>
+				<a href='https://api.whatsapp.com/send/?phone=5548988006507' className='icon'>{whatSapp}</a>
 			</div>
 		</div>
 	);

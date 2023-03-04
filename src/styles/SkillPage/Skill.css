@@ -83,3 +83,11 @@
 	
 }
 
+@media (max-width: 460px) {
+	.skill-card {
+		aspect-ratio: auto;
+		padding: 20px;
+		width: 100%;
+		max-width: none;
+	}
+}
