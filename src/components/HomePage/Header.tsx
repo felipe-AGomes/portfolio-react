@@ -75,8 +75,8 @@ function Header() {
 						handleClick();
 					}}>
 					<img src={closeButton
-						? '../../../public/menu-close.svg'
-						: '../../../public/menu-open.svg'} alt='Abrir menu' />
+						? 'menu-close.svg'
+						: 'menu-open.svg'} alt='Abrir menu' />
 				</button>
 			</header>
 			:	<header className={scroll ? 'active' : ''}>

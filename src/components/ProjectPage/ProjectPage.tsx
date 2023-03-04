@@ -29,7 +29,7 @@ export type ModalProject = {
 	repos?: Repos;
 };
 
-const t = '../../../public/homePagePortfolio.png';
+const t = 'homePagePortfolio.png';
 function ProjectPage() {
 	const [projectModal, setProjectModal] = useState<ModalProject>({modal: ''});
 	const projects: ProjectArgs[] = [
@@ -48,8 +48,8 @@ function ProjectPage() {
 				</p>
 			</div>,
 			srcs: [
-				{srcImg: '../../../public/homePagePortfolio.png'},
-				{srcMp4: '../../../public/MyPortfolio.mp4'},
+				{srcImg: 'homePagePortfolio.png'},
+				{srcMp4: 'MyPortfolio.mp4'},
 			],
 			repos: [
 				{repositorio: 'https://github.com/felipe-AGomes/portfolio-react'},
@@ -72,8 +72,8 @@ function ProjectPage() {
 				</p>
 			</div>,
 			srcs: [
-				{srcImg: '../../../public/jogoDaMemoria.png'},
-				{srcMp4: '../../../public/jogoDaMemoria.mp4'},
+				{srcImg: 'jogoDaMemoria.png'},
+				{srcMp4: 'jogoDaMemoria.mp4'},
 			],
 			repos: [
 				{repositorio: 'https://github.com/felipe-AGomes/jogo-da-memoria'},
