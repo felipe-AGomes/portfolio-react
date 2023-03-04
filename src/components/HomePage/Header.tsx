@@ -85,7 +85,7 @@ function Header() {
 				</a>
 				<ul>
 					<a href='#homePage'>
-						<li>Incio</li>
+						<li>Início</li>
 					</a>
 					<a href='#aboutPage'>
 						<li>Sobre</li>
