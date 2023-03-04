@@ -42,7 +42,6 @@ function SkillPage() {
 		{
 			name: 'PYTHON',
 			img: python,
-
 		},
 	];
 

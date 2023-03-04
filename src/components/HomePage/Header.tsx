@@ -43,7 +43,7 @@ function Header() {
 	}
 
 	return (<>
-		{windowWidth < 460
+		{windowWidth < 461
 			? <header>
 				<a href='https://www.linkedin.com/in/felipe-de-almeida-gomes/' target='_blank' rel='noreferrer'>
 					<h1>Felipe</h1>

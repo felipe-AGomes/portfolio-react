@@ -11,10 +11,10 @@ function Presentation() {
 			</div>
 			<h2>Desenvolvedor Web</h2>
 			<div className='contacts'>
-				<a href='https://www.instagram.com/f.almeida13/' className='icon'>{instagram}</a>
-				<a href='https://www.linkedin.com/in/felipe-de-almeida-gomes/' className='icon'>{linkedin}</a>
-				<a href='https://github.com/felipe-AGomes' className='icon'>{github}</a>
-				<a href='https://api.whatsapp.com/send/?phone=5548988006507' className='icon'>{whatSapp}</a>
+				<a href='https://www.instagram.com/f.almeida13/' target='_blank' className='icon' rel='noreferrer'>{instagram}</a>
+				<a href='https://www.linkedin.com/in/felipe-de-almeida-gomes/' target='_blank' className='icon' rel='noreferrer'>{linkedin}</a>
+				<a href='https://github.com/felipe-AGomes' target='_blank' className='icon' rel='noreferrer'>{github}</a>
+				<a href='https://api.whatsapp.com/send/?phone=5548988006507' target='_blank' className='icon' rel='noreferrer'>{whatSapp}</a>
 			</div>
 		</div>
 	);

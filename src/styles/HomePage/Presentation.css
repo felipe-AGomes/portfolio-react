@@ -45,6 +45,10 @@
   width: 100%;
 }
 
+.presentation .contacts a {
+  z-index: 1;
+}
+
 .presentation .contacts .icon {
   width: 20px;
   height: 20px;

@@ -12,3 +12,9 @@
 .project-card img {
 	width: 100%;
 }
+
+@media (max-width: 380px) {
+	.project-card:hover {
+		transform: scale(1);
+	}
+}

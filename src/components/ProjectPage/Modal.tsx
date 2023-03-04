@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import Button from '../../components/ProjectPage/Button';
-import '../../styles/ProjectPage/MOdal.css';
+import '../../styles/ProjectPage/Modal.css';
 import {closeButton} from '../svg';
 import {type ModalProject} from './ProjectPage';
 
