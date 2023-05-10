@@ -1,12 +1,13 @@
+/* eslint-disable @typescript-eslint/object-curly-spacing */
 import React from 'react';
-import '../../styles/SkillPage/Skill.css';
+import './Skill.css';
 
 type Prop = {
 	skill: string;
 	img: JSX.Element;
 };
 
-function Skill({skill, img}: Prop) {
+function Skill({ skill, img }: Prop) {
 	return (
 		<div className='skill-card'>
 			<span></span>

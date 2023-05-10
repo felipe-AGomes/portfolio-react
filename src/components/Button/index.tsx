@@ -1,11 +1,12 @@
-import React, {useEffect, useState} from 'react';
-import '../../styles/ProjectPage/Button.css';
+/* eslint-disable @typescript-eslint/object-curly-spacing */
+import React, { useEffect, useState } from 'react';
+import './Button.css';
 
 type Prop = {
 	data: Record<string, string>;
 };
 
-function Button({data}: Prop) {
+function Button({ data }: Prop) {
 	const [keyCapitalized, setKeyCapitalized] = useState('');
 	useEffect(() => {
 		const key = Object.keys(data)[0];
@@ -14,7 +15,11 @@ function Button({data}: Prop) {
 	}, [data]);
 
 	return (
-		<a href={Object.values(data)[0]} target='_blank' rel='noreferrer'>
+		<a
+			href={Object.values(data)[0]}
+			target='_blank'
+			rel='noreferrer'
+		>
 			<button name='Repositório'>{keyCapitalized}</button>
 		</a>
 	);
