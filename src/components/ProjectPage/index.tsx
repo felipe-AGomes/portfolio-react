@@ -103,7 +103,7 @@ function ProjectPage() {
 			title: "Today's Look",
 			repos: [
 				{ repositorio: 'https://github.com/felipe-AGomes/todays-look-nextjs' },
-				{ linkedin: '' },
+				{ linkedin: 'https://www.linkedin.com/posts/felipe-de-almeida-gomes_este-foi-o-meu-projeto-mais-completo-at%C3%A9-activity-7062225033753968640-catV?utm_source=share&utm_medium=member_desktop' },
 				{ projeto: 'https://todays-look-nextjs.vercel.app/' },
 			],
 			aboutContent: (
