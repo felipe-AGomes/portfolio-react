@@ -109,28 +109,28 @@ function ProjectPage() {
 			aboutContent: (
 				<div>
 					<p>
-						Aqui está um projeto que me enche de orgulho: um jogo da Memória criado
-						com apenas JavaScript puro, HTML e CSS. Embora pareça simples, há muita
-						lógica por trás dele, o que tornou a experiência de desenvolvê-lo muito
-						desafiadora e enriquecedora.
+						Este foi o meu projeto mais completo até agora! Trata-se de um projeto
+						fullstack, desenvolvido com o framework Next.js. Além disso, utilizei
+						autenticação com Next-auth, armazenamento de imagens no Bucket S3 da
+						Amazon e implementei Typescript. Para garantir a qualidade do código,
+						criei testes unitários utilizando o Jest.
 					</p>{' '}
 					<br />
 					<p>
-						Foi uma jornada intensa, que me ensinou muito sobre programação, design e
-						resolução de problemas. Em alguns momentos, confesso que as dores de
-						cabeça foram intensas, mas nada que uma dose extra de perseverança não
-						pudesse resolver.
+						O projeto é uma aplicação web que permite ao usuário se cadastrar e salvar
+						imagens de roupas, categorizando-as para facilitar a organização. Também é
+						possível criar conjuntos de roupas para visualizar como as peças combinam
+						entre si.
 					</p>{' '}
 					<br />
 					<p>
-						Apesar de ter sido um projeto modesto em termos de escopo, sinto que
-						aprendi muito com ele e que me ajudou a aprimorar minhas habilidades de
-						programação. Afinal, o que importa não é o tamanho do projeto, mas a
-						qualidade do trabalho realizado.
+						Com esta aplicação, o usuário pode gerenciar seu guarda-roupa de maneira
+						fácil e organizada, além de ter a possibilidade de visualizar seus
+						conjuntos de roupas antes de escolher o que vestir.
 					</p>
 				</div>
 			),
-			srcs: [{ srcImg: '' }, { srcMp4: '' }],
+			srcs: [{ srcImg: 'todays-look.jpeg' }, { srcMp4: 'todays-look.mp4' }],
 		},
 	];
 
