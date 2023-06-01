@@ -48,8 +48,7 @@ function Header() {
 			{windowWidth < 461 ? (
 				<header>
 					<a
-						href='https://www.linkedin.com/in/felipe-de-almeida-gomes/'
-						target='_blank'
+						href='#homePage'
 						rel='noreferrer'
 					>
 						<h1>Felipe</h1>
@@ -102,8 +101,7 @@ function Header() {
 			) : (
 				<header className={scroll ? 'active' : ''}>
 					<a
-						href='https://www.linkedin.com/in/felipe-de-almeida-gomes/'
-						target='_blank'
+						href='#homePage'
 						rel='noreferrer'
 					>
 						<h1>Felipe</h1>
