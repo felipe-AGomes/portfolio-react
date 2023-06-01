@@ -55,7 +55,10 @@ function ProjectPage() {
 			srcs: [{ srcImg: 'portfolio.png' }, { srcMp4: 'portfolio.mp4' }],
 			repos: [
 				{ repositorio: 'https://github.com/felipe-AGomes/portfolio-react' },
-				{ linkedin: '' },
+				{
+					linkedin:
+						'https://www.linkedin.com/posts/felipe-de-almeida-gomes_design-oportunidade-activity-7070081055952691200-cB6d?utm_source=share&utm_medium=member_desktop',
+				},
 				{ projeto: '' },
 			],
 		},
