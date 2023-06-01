@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/quotes */
 /* eslint-disable @typescript-eslint/object-curly-spacing */
 import React, { useState } from 'react';
 import Project from '../Project';
@@ -36,17 +37,10 @@ function ProjectPage() {
 			aboutContent: (
 				<div>
 					<p>
-						Estou extremamente orgulhoso de apresentar meu primeiro projeto: meu
-						próprio portfólio. Durante sua criação, tive a oportunidade de aprender
-						muito e me desenvolver como profissional. Foi uma jornada desafiadora, que
-						me permitiu colocar em prática tudo o que havia aprendido até então.
-					</p>{' '}
-					<br />
-					<p>
-						Confesso que houve momentos em que o projeto ficou parado por falta de
-						conhecimento, mas isso não me impediu de buscar novos conhecimentos e
-						habilidades. Com determinação e persistência, consegui superar os
-						obstáculos e finalmente concluir meu portfólio.
+						Estou orgulhoso de apresentar meu portfólio. Durante sua criação, tive a
+						oportunidade de aprender muito e me desenvolver como profissional. Foi uma
+						jornada desafiadora, que me permitiu colocar em prática tudo o que havia
+						aprendido até então.
 					</p>{' '}
 					<br />
 					<p>
@@ -55,10 +49,10 @@ function ProjectPage() {
 						conhecimento que adquiri ao longo do processo. Utilizei diversas
 						ferramentas e tecnologias para tornar o projeto mais dinâmico e
 						interativo, e acredito que o resultado ficou incrível.
-					</p>
+					</p>{' '}
 				</div>
 			),
-			srcs: [{ srcImg: 'homePagePortfolio.png' }, { srcMp4: 'MyPortfolio.mp4' }],
+			srcs: [{ srcImg: 'portfolio.png' }, { srcMp4: 'portfolio.mp4' }],
 			repos: [
 				{ repositorio: 'https://github.com/felipe-AGomes/portfolio-react' },
 				{ linkedin: '' },
@@ -99,11 +93,49 @@ function ProjectPage() {
 			],
 		},
 		{
-			// eslint-disable-next-line @typescript-eslint/quotes
+			title: 'Calculadora React',
+			aboutContent: (
+				<div>
+					<p>
+						Meu projeto é uma calculadora completa desenvolvida em React. Com este
+						projeto, busco criar uma calculadora moderna e funcional, que ofereça aos
+						usuários uma experiência agradável e eficiente para realizar cálculos
+						matemáticos.
+					</p>{' '}
+					<br />
+					<p>
+						A calculadora contará com recursos avançados, como um histórico dos
+						cálculos efetuados, permitindo que os usuários revisitem cálculos
+						anteriores e façam referência a eles quando necessário. Além disso, terá
+						opções de temas claro e escuro, para que cada usuário possa personalizar a
+						aparência da calculadora de acordo com suas preferências.
+					</p>{' '}
+					<br />
+					<p>
+						Uma característica essencial do meu projeto é a abordagem segura para os
+						cálculos. Em vez de utilizar o método &quot;eval&quot;, que pode
+						apresentar riscos de segurança, implementei algoritmos matemáticos
+						personalizados para processar as expressões inseridas pelos usuários. Isso
+						garante que os cálculos sejam realizados de forma confiável e segura, sem
+						comprometer a integridade da aplicação.
+					</p>
+				</div>
+			),
+			srcs: [{ srcImg: 'calculator.png' }, { srcMp4: 'calculator.mp4' }],
+			repos: [
+				{ repositorio: 'https://github.com/felipe-AGomes/calculadora-react' },
+				{ linkedin: '' },
+				{ projeto: 'https://calculadora-pro-react.netlify.app/' },
+			],
+		},
+		{
 			title: "Today's Look",
 			repos: [
 				{ repositorio: 'https://github.com/felipe-AGomes/todays-look-nextjs' },
-				{ linkedin: 'https://www.linkedin.com/posts/felipe-de-almeida-gomes_este-foi-o-meu-projeto-mais-completo-at%C3%A9-activity-7062225033753968640-catV?utm_source=share&utm_medium=member_desktop' },
+				{
+					linkedin:
+						'https://www.linkedin.com/posts/felipe-de-almeida-gomes_este-foi-o-meu-projeto-mais-completo-at%C3%A9-activity-7062225033753968640-catV?utm_source=share&utm_medium=member_desktop',
+				},
 				{ projeto: 'https://todays-look-nextjs.vercel.app/' },
 			],
 			aboutContent: (
