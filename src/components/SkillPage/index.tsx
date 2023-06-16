@@ -11,7 +11,6 @@ import {
 	jest,
 	nextjs,
 	node,
-	python,
 	react,
 	typeScript,
 } from '../../svg/index';

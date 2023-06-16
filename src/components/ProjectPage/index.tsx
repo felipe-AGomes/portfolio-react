@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/quotes */
 /* eslint-disable @typescript-eslint/object-curly-spacing */
 import React, { useState } from 'react';
-import Project from '../Project';
 import './ProjectPage.css';
 import Modal from '../Modal';
+import Project from '../Project';
 
 export type Srcs = [{ srcImg: string }, { srcMp4: string }];
 
@@ -28,7 +28,6 @@ export type ModalProject = {
 	repos?: Repos;
 };
 
-const t = 'homePagePortfolio.png';
 function ProjectPage() {
 	const [projectModal, setProjectModal] = useState<ModalProject>({ modal: '' });
 	const projects: ProjectArgs[] = [
