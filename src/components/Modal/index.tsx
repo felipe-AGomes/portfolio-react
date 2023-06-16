@@ -43,8 +43,6 @@ function Modal({ data }: Prop) {
 			<div className='buttons'>
 				{dataModal.repos
 					? dataModal.repos.map((data) => {
-							console.log(Object.values(data));
-
 							if (Object.values(data)[0] === '') {
 								return;
 							}

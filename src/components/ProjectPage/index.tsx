@@ -167,6 +167,25 @@ function ProjectPage() {
 			),
 			srcs: [{ srcImg: 'todays-look.jpeg' }, { srcMp4: 'todays-look.mp4' }],
 		},
+		{
+			title: 'Hub Component',
+			repos: [
+				{ repositorio: 'https://github.com/felipe-AGomes/components-hub' },
+				{ linkedin: '' },
+				{ projeto: 'https://components-hub.vercel.app' },
+			],
+			aboutContent: (
+				<div>
+					<p>
+						Este projeto surgiu com a proposta de criar um hub que reúna todos os meus
+						componentes, visando principalmente a organização e centralização dos
+						estilos. Através desse hub, pretendo facilitar o acesso e o gerenciamento
+						de todos os elementos utilizados em meus projetos.
+					</p>
+				</div>
+			),
+			srcs: [{ srcImg: 'hubComponent.png' }, { srcMp4: 'hubComponent.mp4' }],
+		},
 	];
 
 	function projectClick(index: number): void {
