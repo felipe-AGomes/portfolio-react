@@ -58,6 +58,10 @@ function SkillPage() {
 			name: 'NODE',
 			img: node,
 		},
+		{
+			name: 'FIGMA',
+			img: figma,
+		},
 	];
 
 	return (
