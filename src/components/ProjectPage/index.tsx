@@ -185,6 +185,32 @@ function ProjectPage() {
 			),
 			srcs: [{ srcImg: 'hubComponent.png' }, { srcMp4: 'hubComponent.mp4' }],
 		},
+		{
+			title: 'Carrinho de compras Mercado Livre',
+			repos: [
+				{
+					repositorio: 'https://github.com/felipe-AGomes/mercadolivre-shopping-cart',
+				},
+				{ linkedin: '' },
+				{ projeto: 'https://mercadolivre-shopping-cart.vercel.app' },
+			],
+			aboutContent: (
+				<div>
+					<p>
+						Foi desenvolvido um projeto que utiliza a API do Mercado Livre,
+						proporcionando a facilidade de buscar por qualquer produto e exibir todos
+						os itens disponíveis para venda no site. Além disso, é possível realizar a
+						ordenação dos resultados por relevância, preço mais alto ou preço mais
+						baixo. Também foi incluído um carrinho de compras que permite somar todos
+						os produtos selecionados.
+					</p>
+				</div>
+			),
+			srcs: [
+				{ srcImg: 'mercadolivre-shopping-cart.png' },
+				{ srcMp4: 'mercadolivre-shopping-cart.mp4' },
+			],
+		},
 	];
 
 	function projectClick(index: number): void {
