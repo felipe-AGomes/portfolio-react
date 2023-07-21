@@ -211,6 +211,26 @@ function ProjectPage() {
 				{ srcMp4: 'mercadolivre-shopping-cart.mp4' },
 			],
 		},
+		{
+			title: 'Snake',
+			repos: [
+				{
+					repositorio: 'https://github.com/felipe-AGomes/snake',
+				},
+				{ linkedin: '' },
+				{ projeto: 'https://snake-sandy-iota.vercel.app/' },
+			],
+			aboutContent: (
+				<div>
+					<p>
+						Nesse projeto foi criado o classico jogo da cobrinha utilizando next como
+						framework. O projeto é simples mas foi muito bem construido utilizando o
+						padrão de desenvolvimento SOLID. Tecnologias utilizadas: Next, Typesctipt
+					</p>
+				</div>
+			),
+			srcs: [{ srcImg: 'snake.png' }, { srcMp4: 'snake.mp4' }],
+		},
 	];
 
 	function projectClick(index: number): void {
